@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  progressbar:
+    build: ./progressbar
+    container_name: progressbar_c
+    ports: 
+      - '3000:3000'
+    stdin_open: true
+    tty: true
